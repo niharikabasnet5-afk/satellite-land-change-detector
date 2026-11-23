@@ -141,7 +141,7 @@ if upload1 and upload2:
 
         with c1:
             st.image(image1, caption="Earlier Satellite Image", use_container_width=True)
-            st.image(difference, caption="Difference Map", use_container_width=True)
+            st.image(mask, caption="Binary Change Mask", use_container_width=True)
 
         with c2:
             st.image(image2, caption="Later Satellite Image", use_container_width=True)
